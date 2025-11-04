@@ -10,11 +10,10 @@ enum Categories {
   spices,
   convenience,
   hygiene,
-  other
+  other,
 }
 
 class Category {
-  
   const Category(this.title, this.color);
 
   final String title;
